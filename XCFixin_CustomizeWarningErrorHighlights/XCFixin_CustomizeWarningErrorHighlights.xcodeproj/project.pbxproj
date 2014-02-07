@@ -18,7 +18,7 @@
 		5514A3F91506CB8F00A8AD77 /* XCFixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCFixin.m; path = "../Shared Code/XCFixin.m"; sourceTree = "<group>"; };
 		5595EEEB150067CB00A30634 /* XCFixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCFixin.h; path = "../Shared Code/XCFixin.h"; sourceTree = "<group>"; };
 		55C015D112B7BC2500354E5C /* XCFixin_CustomizeWarningErrorHighlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFixin_CustomizeWarningErrorHighlights.m; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* XCFixin_CustomizeWarningErrorHighlights.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCFixin_CustomizeWarningErrorHighlights.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B6048680CD000E48DA /* XCFixin-CustomizeWarningErrorHighlights.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCFixin-CustomizeWarningErrorHighlights.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB3E58C6155582A000EA2050 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* XCFixin_CustomizeWarningErrorHighlights.xcplugin */,
+				8D5B49B6048680CD000E48DA /* XCFixin-CustomizeWarningErrorHighlights.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			name = XCFixin_CustomizeWarningErrorHighlights;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = XCFixin_DisableAnimations;
-			productReference = 8D5B49B6048680CD000E48DA /* XCFixin_CustomizeWarningErrorHighlights.xcplugin */;
+			productReference = 8D5B49B6048680CD000E48DA /* XCFixin-CustomizeWarningErrorHighlights.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "XCFixin_CustomizeWarningErrorHighlights" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -177,7 +177,6 @@
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks\"",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LD_RUNPATH_SEARCH_PATHS = /Developer;
@@ -185,7 +184,7 @@
 					"-framework",
 					Cocoa,
 				);
-				PRODUCT_NAME = XCFixin_CustomizeWarningErrorHighlights;
+				PRODUCT_NAME = "XCFixin-CustomizeWarningErrorHighlights";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = xcplugin;
@@ -206,7 +205,6 @@
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks\"",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LD_RUNPATH_SEARCH_PATHS = /Developer;
@@ -214,7 +212,7 @@
 					"-framework",
 					Cocoa,
 				);
-				PRODUCT_NAME = XCFixin_CustomizeWarningErrorHighlights;
+				PRODUCT_NAME = "XCFixin-CustomizeWarningErrorHighlights";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = xcplugin;

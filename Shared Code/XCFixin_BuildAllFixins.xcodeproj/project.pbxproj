@@ -240,7 +240,7 @@
 		7BBB5BD817DC01580087E13D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 7BBB5BDB17DC01580087E13D /* Build configuration list for PBXProject "XCFixin_BuildAllFixins" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -430,16 +430,15 @@
 		7BBB5BDC17DC01580087E13D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DSTROOT = "$(HOME)";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		7BBB5BDD17DC01580087E13D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DSTROOT = "$(HOME)";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 			};

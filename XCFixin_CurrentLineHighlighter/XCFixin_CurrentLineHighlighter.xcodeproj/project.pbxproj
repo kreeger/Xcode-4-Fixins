@@ -15,7 +15,7 @@
 /* Begin PBXFileReference section */
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55C015D112B7BC2500354E5C /* XCFixin_CurrentLineHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFixin_CurrentLineHighlighter.m; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* XCFixin_CurrentLineHighlighter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCFixin_CurrentLineHighlighter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B6048680CD000E48DA /* XCFixin-CurrentLineHighlighter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCFixin-CurrentLineHighlighter.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A120F048153A73DE00FDC691 /* XCFixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCFixin.h; path = "../Shared Code/XCFixin.h"; sourceTree = "<group>"; };
 		A120F04A153A772C00FDC691 /* XCFixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCFixin.m; path = "../Shared Code/XCFixin.m"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* XCFixin_CurrentLineHighlighter.xcplugin */,
+				8D5B49B6048680CD000E48DA /* XCFixin-CurrentLineHighlighter.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			name = XCFixin_CurrentLineHighlighter;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = XCFixin_CurrentLineHighlighter;
-			productReference = 8D5B49B6048680CD000E48DA /* XCFixin_CurrentLineHighlighter.xcplugin */;
+			productReference = 8D5B49B6048680CD000E48DA /* XCFixin-CurrentLineHighlighter.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "XCFixin_CurrentLineHighlighter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -159,7 +159,6 @@
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DSTROOT = "$(HOME)";
-				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LD_RUNPATH_SEARCH_PATHS = /Developer;
@@ -167,7 +166,7 @@
 					"-framework",
 					Cocoa,
 				);
-				PRODUCT_NAME = XCFixin_CurrentLineHighlighter;
+				PRODUCT_NAME = "XCFixin-CurrentLineHighlighter";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = xcplugin;
@@ -182,7 +181,6 @@
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DSTROOT = "$(HOME)";
-				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LD_RUNPATH_SEARCH_PATHS = /Developer;
@@ -190,7 +188,7 @@
 					"-framework",
 					Cocoa,
 				);
-				PRODUCT_NAME = XCFixin_CurrentLineHighlighter;
+				PRODUCT_NAME = "XCFixin-CurrentLineHighlighter";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = xcplugin;

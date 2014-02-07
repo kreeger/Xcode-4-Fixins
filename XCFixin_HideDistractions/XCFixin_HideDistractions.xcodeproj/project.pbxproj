@@ -17,7 +17,7 @@
 		5514A4021506CB9E00A8AD77 /* XCFixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCFixin.m; path = "../Shared Code/XCFixin.m"; sourceTree = "<group>"; };
 		5595EEF1150067D400A30634 /* XCFixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCFixin.h; path = "../Shared Code/XCFixin.h"; sourceTree = "<group>"; };
 		55C015D112B7BC2500354E5C /* XCFixin_HideDistractions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFixin_HideDistractions.m; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* XCFixin_HideDistractions.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCFixin_HideDistractions.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B6048680CD000E48DA /* XCFixin-HideDistractions.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCFixin-HideDistractions.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* XCFixin_HideDistractions.xcplugin */,
+				8D5B49B6048680CD000E48DA /* XCFixin-HideDistractions.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			name = XCFixin_HideDistractions;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = XCFixin_HideDistractions;
-			productReference = 8D5B49B6048680CD000E48DA /* XCFixin_HideDistractions.xcplugin */;
+			productReference = 8D5B49B6048680CD000E48DA /* XCFixin-HideDistractions.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "XCFixin_HideDistractions" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -161,7 +161,6 @@
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DSTROOT = "$(HOME)";
-				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LD_RUNPATH_SEARCH_PATHS = /Developer;
@@ -169,7 +168,7 @@
 					"-framework",
 					Cocoa,
 				);
-				PRODUCT_NAME = XCFixin_HideDistractions;
+				PRODUCT_NAME = "XCFixin-HideDistractions";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = xcplugin;
@@ -186,7 +185,6 @@
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DSTROOT = "$(HOME)";
-				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LD_RUNPATH_SEARCH_PATHS = /Developer;
@@ -194,7 +192,7 @@
 					"-framework",
 					Cocoa,
 				);
-				PRODUCT_NAME = XCFixin_HideDistractions;
+				PRODUCT_NAME = "XCFixin-HideDistractions";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = xcplugin;
